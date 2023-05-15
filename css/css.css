@@ -1,0 +1,133 @@
+*{
+  text-align:justify;
+  text-justify:inter-word;
+}
+
+#b1 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.cod {
+  margin-left: 100px;
+  margin-right: 950px;
+}
+
+.titu {
+  text-align: center;
+  align-items: center;
+}
+
+.titulus {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.omnis {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.fig {
+  width: 100px;
+  align-items: center;
+  align-content: center;
+}
+
+#oq {
+  display: block;
+  margin-left: 5px;
+  margin-right: auto;
+}
+
+.SampleImage img {
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.naosei {
+  border: none;
+  margin-top: 80px;
+  margin-right: 22%;
+  margin-left: 2%;
+}
+
+.text{
+  display: "inline";
+}
+
+/* sidebar */
+
+.latus {
+  height: 100%;
+  width: 18%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  padding-top: 100px;
+}
+
+.latus a {
+  color: rgb(104, 104, 104);
+}
+
+.latus a:hover {
+  color: rgb(104, 104, 104);
+}
+
+.latus a:active {
+  color: dodgerblue;
+}
+
+.t2 {
+  height: 40vh;
+  margin-left: 80%;
+  border-left: 1px solid rgb(104, 104, 104);
+  position: fixed;
+  margin-top: 0px;
+}
+
+.tt {
+  @media (max-width: 768px) {
+    .latus {
+      display: none;
+    }
+    .t2 {
+      display: none;
+    }
+    .main-content {
+      flex: 1;
+    }
+  }
+}
+
+/* sidebar */
+
+.calc{
+  width: 80%;
+  margin-left: 1%;
+  margin-right: 20%;
+  margin-top: 2%;
+}
+
+.sh{
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 10px;
+  border-top: 0 none;
+  border-bottom: 0 none;
+  width: fit-content; 
+  max-width: calc(max-content + 3px) !important ;
+}
+.en{
+  margin-left: 1px;
+  align-items: center;
+  align-content: center; 
+}
